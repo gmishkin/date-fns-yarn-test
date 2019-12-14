@@ -1,0 +1,19 @@
+{
+  "name": "date-fns-yarn-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "webpack-cli --mode development --entry ./main.js --output bundle.js"
+  },
+  "devDependencies": {
+    "cypress": "3.6.0",
+    "webpack": "4",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-datepicker": "2.9.6",
+    "react-dom": "^16.12.0"
+  }
+}
